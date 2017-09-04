@@ -1,10 +1,9 @@
-module.exports = (api, lights) => {
-    lights.forEach(light => {
-        api.setLightState(light.id, {
-            "xy":[
-                Math.random(),
-                Math.random()
-            ]
-        });
-    });
-}
+const setLightState = require('./setLightState');
+
+module.exports = (api, lights) => setLightState(api, lights, {
+    xy: [
+        Math.random(),
+        Math.random()
+    ]
+});
+
