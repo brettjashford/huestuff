@@ -1,0 +1,13 @@
+{
+  "name": "huestuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brettjashford/huestuff.git",
+  "author": "Brett Ashford <brettjashford@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "lodash.get": "^4.4.2",
+    "node-hue-api": "^2.4.2"
+  }
+}
